@@ -1,0 +1,10 @@
+const students =[
+  { name: "Alice", age: 20, major: "Computer Science" },
+  { name: "Bob", age: 22, major: "Mathematics" },
+  { name: "Charlie", age: 21, major: "Physics" }
+]
+// Function to get names of all students
+function getStudentNames(students) {
+  return students.map(student => student.name);
+}
+console.log(getStudentNames(students)); // Output: ["Alice", "Bob", "Charlie"]
